@@ -1,0 +1,18 @@
+if game:GetService("Players").LocalPlayer.data.stats.hunger.Value <= 50 then 
+
+local args = {
+    [1] = "inventory",
+    [2] = "equip",
+    [3] = "2"
+}
+
+game:GetService("ReplicatedStorage").events.RemoteFunction:FireServer(unpack(args))game:GetService("ReplicatedStorage").events.RemoteFunction:FireServer(unpack(args))
+
+local args = {
+    [1] = "inventory",
+    [2] = "use",
+    [3] = "2"
+}
+
+game:GetService("ReplicatedStorage").events.RemoteFunction:FireServer(unpack(args))
+end
